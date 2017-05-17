@@ -19,5 +19,9 @@ example: git status
 check for the status of files that git tool managed
 
 4. git push
-example: git push readme.md -m "change the content of readme"
+example: git push
 push code to the remote repository
+
+5. git commit
+example: git commit -a -m "first commit"
+commit the change to the local repository
