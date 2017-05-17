@@ -1,1 +1,23 @@
+Git is tool to manage code
+
+link to learn more about git:
 http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/
+
+
+high frequency used command for git:
+1. git clone
+example: git clone https://github.com/weixk/PersonalBlog.git
+clone total project from remote repository
+
+2. git pull
+example: git pull
+check for the updates of the code, and download the new code into the project
+usage: run the command just in the folder has .git file. git will pull the code according to the info saved in the .git file
+
+3. git status
+example: git status
+check for the status of files that git tool managed
+
+4. git push
+example: git push readme.md -m "change the content of readme"
+push code to the remote repository
